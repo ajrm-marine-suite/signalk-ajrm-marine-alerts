@@ -1,0 +1,45 @@
+{
+  "name": "signalk-ajrm-marine-alerts",
+  "version": "0.5.0",
+  "description": "Alert panel for AJRM Marine Suite notifications.",
+  "main": "plugin/index.js",
+  "scripts": {
+    "test": "node --test && node --check plugin/index.js && node --check public/app.js"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-webapp",
+    "signalk-category-notifications",
+    "alerts",
+    "watchkeeper",
+    "signal-k",
+    "signalk",
+    "ajrm-marine-suite",
+    "marine",
+    "navigation"
+  ],
+  "author": "Anthony McDonald, with assistance from William McAusland",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajrm-marine-suite/signalk-ajrm-marine-alerts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajrm-marine-suite/signalk-ajrm-marine-alerts/issues"
+  },
+  "homepage": "https://github.com/ajrm-marine-suite/signalk-ajrm-marine-alerts#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "plugin",
+    "public",
+    "README.md",
+    "LICENSE"
+  ],
+  "signalk-plugin-enabled-by-default": true,
+  "signalk": {
+    "displayName": "AJRM Marine Alerts",
+    "appIcon": "./icon.svg"
+  }
+}

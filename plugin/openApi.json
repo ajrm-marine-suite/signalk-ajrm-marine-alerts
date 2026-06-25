@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "AJRM Marine Alerts",
+    "version": "0.5.0",
+    "description": "Read-only AJRM Marine alert viewer status API."
+  },
+  "paths": {
+    "/status": {
+      "get": {
+        "summary": "Return AJRM Marine Alerts plugin status",
+        "responses": {
+          "200": {
+            "description": "Status response"
+          }
+        }
+      }
+    }
+  }
+}
