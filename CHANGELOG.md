@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2
+
+- Update public beta documentation and install command for the AJRM Marine repository.
+
 ## 0.5.1
 
 - Remove obsolete suite naming from package metadata.
