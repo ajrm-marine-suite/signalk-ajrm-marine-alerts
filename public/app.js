@@ -66,9 +66,9 @@
       state.recentActivityHours =
         Number(status.recentActivityHours) || DEFAULT_RECENT_ACTIVITY_HOURS;
       state.enabled = status.enabled !== false;
-      els.versionText.textContent = `AJRM Marine Alerts v${status.version}`;
+      els.versionText.textContent = `AJRM Marine Alert Panel v${status.version}`;
     } catch (_error) {
-      els.versionText.textContent = "AJRM Marine Alerts";
+      els.versionText.textContent = "AJRM Marine Alert Panel";
     }
   }
 
@@ -93,7 +93,7 @@
     els.activeCount.textContent = "0";
     els.recentCount.textContent = "0";
     els.updatedAt.textContent = "Disabled by configuration.";
-    renderList(els.activeList, [], "AJRM Marine Alerts is disabled.");
+    renderList(els.activeList, [], "AJRM Marine Alert Panel is disabled.");
     renderList(els.recentList, [], "No recent activity.");
   }
 

@@ -10,7 +10,7 @@ test("package metadata describes a Signal K read-only alert viewer", () => {
   assert.match(packageInfo.version, /^\d+\.\d+\.\d+$/);
   assert.ok(packageInfo.keywords.includes("signalk-node-server-plugin"));
   assert.ok(packageInfo.keywords.includes("signalk-webapp"));
-  assert.equal(packageInfo.signalk.displayName, "AJRM Marine Alerts");
+  assert.equal(packageInfo.signalk.displayName, "AJRM Marine Alert Panel");
   assert.equal(openApi.info.version, packageInfo.version);
 });
 

@@ -11,7 +11,7 @@ module.exports = function ajrmMarineAlerts(app) {
   let startedAt = null;
 
   plugin.id = PLUGIN_ID;
-  plugin.name = "AJRM Marine Alerts";
+  plugin.name = "AJRM Marine Alert Panel";
   plugin.description =
     "Read-only crew alert viewer for AJRM Marine notifications.";
 
@@ -20,7 +20,7 @@ module.exports = function ajrmMarineAlerts(app) {
     properties: {
       enabled: {
         type: "boolean",
-        title: "Enable AJRM Marine Alerts web app",
+        title: "Enable AJRM Marine Alert Panel web app",
         default: true,
       },
       refreshIntervalMs: {

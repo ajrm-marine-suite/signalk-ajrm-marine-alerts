@@ -1,6 +1,6 @@
 {
   "name": "signalk-ajrm-marine-alerts",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Alert panel for AJRM Marine Suite notifications.",
   "main": "plugin/index.js",
   "scripts": {
@@ -38,7 +38,7 @@
   ],
   "signalk-plugin-enabled-by-default": true,
   "signalk": {
-    "displayName": "AJRM Marine Alerts",
+    "displayName": "AJRM Marine Alert Panel",
     "appIcon": "./icon.svg"
   }
 }

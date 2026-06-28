@@ -34,12 +34,12 @@ function routeHarness() {
   };
 }
 
-test("plugin starts as read-only AJRM Marine Alerts", () => {
+test("plugin starts as read-only AJRM Marine Alert Panel", () => {
   const { plugin, statuses } = harness();
   plugin.start({});
 
   assert.equal(plugin.id, "signalk-ajrm-marine-alerts");
-  assert.equal(plugin.name, "AJRM Marine Alerts");
+  assert.equal(plugin.name, "AJRM Marine Alert Panel");
   assert.equal(plugin.schema.properties.enabled.default, true);
   assert.equal(plugin.schema.properties.refreshIntervalMs.default, 2000);
   assert.equal(plugin.schema.properties.recentActivityHours.default, 12);

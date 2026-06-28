@@ -1,6 +1,10 @@
-# AJRM Marine Alerts
+# AJRM Marine Alert Panel
 
 Read-only alert viewer for the AJRM Marine suite.
+
+Version `0.5.3` renames the public app label from AJRM Marine Alerts to
+AJRM Marine Alert Panel, making clear that this app is the visual panel rather
+than the alert engine.
 
 Version `0.5.2` updates the public beta documentation and install command for
 the AJRM Marine repository.
@@ -19,11 +23,11 @@ while this read-only viewer replaces them.
 
 ## Security model
 
-AJRM Marine Alerts is intended to work with Signal K read-only access. Local
+AJRM Marine Alert Panel is intended to work with Signal K read-only access. Local
 settings such as layout mode and font size stay on the device and are not sent
 back to the boat.
 
-AJRM Marine Alerts does not play audio directly. Use AJRM Marine Audio for
+AJRM Marine Alert Panel does not play audio directly. Use AJRM Marine Audio for
 browser/headphone playback, Pi speaker output, radio stream output, mute, and
 sound checks.
 
@@ -31,11 +35,11 @@ sound checks.
 
 ```bash
 cd ~/.signalk
-npm install git+https://github.com/ajrm-marine-suite/signalk-ajrm-marine-alerts.git#v0.5.2 --omit=dev --no-package-lock
+npm install git+https://github.com/ajrm-marine-suite/signalk-ajrm-marine-alerts.git#v0.5.3 --omit=dev --no-package-lock
 sudo systemctl restart signalk
 ```
 
-Then open the Signal K webapps list and launch **AJRM Marine Alerts**.
+Then open the Signal K webapps list and launch **AJRM Marine Alert Panel**.
 
 
 ## Public Beta
